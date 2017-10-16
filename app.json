@@ -1,7 +1,7 @@
 {
   "name": "Web Speech CFO Services Chatbot Demo",
-  "description": "CFO Services Chatbot Demo with Web Speech API",
-  "repository": "https://github.com/girliemac/web-speech-ai",
+  "description": "CFO Services Chatbot",
+  "repository": "https://github.com/alexaarris/CFOServicesChatBot",
   "keywords": ["ai", "api.ai", "bot", "w3c"],
   "env": {
     "APIAI_TOKEN": {
