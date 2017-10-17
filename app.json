@@ -1,7 +1,7 @@
 {
-  "name": "CFO Services Chatbot",
-  "description": "CFO Services Chatbot",
-  "repository": "https://github.com/alexaarris/CFOServicesChatBot",
+  "name": "Doc Reader Bot",
+  "description": "Doc Reader Bot",
+  "repository": "https://github.com/alexaarris/DocReaderChatbot",
   "keywords": ["ai", "api.ai", "bot", "w3c"],
   "env": {
     "APIAI_TOKEN": {
