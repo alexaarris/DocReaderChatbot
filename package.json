@@ -1,7 +1,7 @@
 {
   "name": "web-speech-ai",
   "version": "1.0.0",
-  "description": "CFO Services Chatbot Demo with Web Speech API",
+  "description": "Doc Reader Bot Demo with Web Speech API",
   "main": "index.js",
   "scripts": {
     "start": "nf start",
