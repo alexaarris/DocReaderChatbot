@@ -8,7 +8,7 @@ const outputBot = document.querySelector('.output-bot');
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 
-recognition.lang = 'en-US';
+recognition.lang = 'en-GB';
 recognition.interimResults = false;
 recognition.maxAlternatives = 1;
 
@@ -45,7 +45,8 @@ function synthVoice(text) {
   const utterance = new SpeechSynthesisUtterance();
   const voices = window.speechSynthesis.getVoices();
   utterance.text = text;
-  utterance.rate = 1.8;  
+  utterance.rate = 1.8;
+  uterance.lang = 'en-GB';
   utterance.voice = voices[3];
   utterance.voiceURI = 'Google UK English Female';
   synth.speak(utterance);
