@@ -45,7 +45,7 @@ function synthVoice(text) {
   const utterance = new SpeechSynthesisUtterance();
   const voices = window.speechSynthesis.getVoices();
   utterance.text = text;
-  utterance.rate = 1.8;
+  utterance.rate = 1;
   utterance.lang = 'en-GB';
   utterance.voice = voices[3];
   utterance.voiceURI = 'Google UK English Female';
