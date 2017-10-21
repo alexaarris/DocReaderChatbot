@@ -43,8 +43,10 @@ recognition.addEventListener('error', (e) => {
 function synthVoice(text) {
   const synth = window.speechSynthesis;
   const utterance = new SpeechSynthesisUtterance();
+  const voices = window.speechSynthesis.getVoices();
   utterance.text = text;
   utterance.rate = 1.8;
+  utterance.name = "Google UK English Female"
   synth.speak(utterance);
 }
 
