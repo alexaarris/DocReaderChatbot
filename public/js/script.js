@@ -45,7 +45,7 @@ function synthVoice(text) {
   const utterance = new SpeechSynthesisUtterance();
   const voices = window.speechSynthesis.getVoices();
   utterance.text = text;
-  utterance.rate = 3;
+  utterance.rate = 2;
   synth.speak(utterance);
 }
 
